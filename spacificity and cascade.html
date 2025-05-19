@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spacificity</title>
+    <style>
+        /*specificity is 1 */
+        h1{
+            color: aqua;
+        }
+        /* specificity is 10  */
+        .yellow{
+            color: yellow;
+        }
+        /*  specificity is 10 */
+        .cred{
+            color: red;
+
+        }
+        /*  specificity is 10 */
+        .cpurple{
+            color: purple;
+        }
+        /*  attribute selector specificity is 10 */
+
+        [data-x=a]{
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple " data-x="a" > css specific</h1>
+    </div>
+</body>
+</html>

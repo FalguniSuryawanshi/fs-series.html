@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise3</title>
+
+    <style>
+        body{
+            background-color: rgb(240, 157, 157);
+        }
+
+        
+        :root{
+            --color:greenyellow;
+            --seccolor:green;
+            --defpad:23px;
+
+        }
+       
+        .nav{
+            background-color:var(--color);
+        }
+        
+        .parent{
+            padding:35px ;
+            margin: 45px;
+            border: 8px solid var(--color);
+            width: 1050px;
+            height: 700px;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .home{
+            border: 2px solid var(--seccolor);
+            padding: 0px;
+            margin: 0px;
+            width: 1023px;
+            height: 683px;
+            align-items: center;
+            justify-content: center;   
+        }
+        ul{
+            display: flex;
+        }
+
+        
+        ul li{
+            opacity: var(--defop)
+            list-style: none;
+            padding:var(--defpad);
+            border:12px solid var(--seccolor) ;
+            list-style-type:none;
+            
+            
+        }
+        ul li:first-child{
+            
+            background-color:var(--color) ;
+
+        }
+       
+        .para{
+            color: var(--color);
+            background-color: var(--seccolor);
+            
+        }
+        .child{
+
+            padding: 12px;
+            margin: 12px;
+            border: 2px solid var(--color);
+            width: 500px;
+            height: 250x;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            
+
+        }
+          
+
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>I</li>
+                <li>LOVE</li>
+                <li>MY</li>
+                <li>HOME</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="parent">
+    
+    <div class="home">
+        <img src="https://s-media-cache-ak0.pinimg.com/originals/3c/b3/0b/3cb30b70021dd244d888f24547782b69.jpg" alt="none">
+    </div>
+    </div>
+    <div class="child">
+    <div class="para">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione autem inventore aliquid provident fugiat officia earum quo dolores impedit quam vel quae voluptatem incidunt quos, libero beatae nostrum accusantium non animi tempora sunt distinctio recusandae excepturi ad? Ratione nulla quaerat ab omnis eos corporis voluptas!
+        </p>
+    </div>
+</div>
+
+    
+</body>
+</html>

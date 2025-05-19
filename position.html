@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .box1{
+             background-color: rgb(144, 240, 240); 
+            position: sticky;
+            top: 0px;
+            height: 111px;
+            width: 100%;
+            margin: 0px;
+             padding: 0px; 
+            
+
+        }
+
+        .box2{
+            background-color: rgb(133, 239, 204);
+            position: relative;
+            top: 34px;
+            left: 56px;
+
+        }
+
+        .box3{
+            background-color: rgb(195, 137, 248);
+            position: fixed;
+            bottom: 0px;
+            left: 1vw;
+        }
+
+        .box4{
+            background-color: rgb(241, 209, 170);
+        }
+
+        .box{
+            border: 3px solid rgb(221, 84, 166);
+            height: 13vh;
+            width: 18vw;
+            margin: 3px;
+            padding: 3px;
+
+
+        }
+        .perent{
+            padding: 33px;
+            margin: 44px;
+            border: 2px solid orange;
+             /* position: absolute;  */
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="perent">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</div>
+</body>
+</html>
